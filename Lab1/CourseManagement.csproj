@@ -8,5 +8,10 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <!-- Тесты лежат внутри Lab1, но не должны компилиться в основном проекте -->
+    <Compile Remove="Lab1.Tests/**/*.cs" />
+  </ItemGroup>
+
 </Project>
 

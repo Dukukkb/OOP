@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lab1\CourseManagement.csproj" />
+    <ProjectReference Include="..\CourseManagement.csproj" />
   </ItemGroup>
 
 </Project>
